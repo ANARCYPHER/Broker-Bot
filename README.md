@@ -1,4 +1,5 @@
-
+#BROKER-BOT
+#author Caesar Versatti
 
 ### Compatible Exchanges
 
