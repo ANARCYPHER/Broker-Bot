@@ -1,30 +1,5 @@
 
 
-[![Release](https://img.shields.io/github/release/ctubio/Krypto-trading-bot.svg)](https://github.com/ctubio/Krypto-trading-bot/releases)
-[![Platform](https://img.shields.io/badge/platform-unix--like-111111.svg)](https://www.gnu.org/)
-[![g0t0 Counter](https://tinyurl.com/g0t0search)](https://tinyurl.com/g0t0docs)
-[![Code Size](https://img.shields.io/github/languages/code-size/ctubio/Krypto-trading-bot.svg)](https://github.com/ctubio/Krypto-trading-bot)
-[![Software License](https://img.shields.io/badge/license-ISC-551a8b.svg)](https://raw.githubusercontent.com/ctubio/Krypto-trading-bot/master/LICENSE)
-[![Software License](https://img.shields.io/badge/license-MIT-551a8b.svg)](https://raw.githubusercontent.com/ctubio/Krypto-trading-bot/master/COPYING)
-
-[`K`](https://github.com/ctubio/Krypto-trading-bot) is a very low latency [market making](https://github.com/ctubio/Krypto-trading-bot/blob/master/doc/MANUAL.md#what-is-market-making) trading bot with a fully featured [web interface](https://github.com/ctubio/Krypto-trading-bot#web-ui). It can place and cancel orders on one of [several supported cryptocoin exchanges](https://github.com/ctubio/Krypto-trading-bot#compatible-exchanges) in less than a few miliseconds per order on a decent machine.
-
-### <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4be.png" height="64" width="64"  align="middle" /> Latest version at https://github.com/ctubio/Krypto-trading-bot <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f51e.png" height="64" width="64" align="middle" /> <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4b8.png" height="64" width="64" align="middle" />
-![ec87b582ea50262143067b55e7af0d1f_400x400](https://user-images.githubusercontent.com/73909878/128005125-2590a4f6-5cd4-4e9c-8eff-a66c2a10f93a.jpg)
-
-[![Build Status](https://github.com/ctubio/Krypto-trading-bot/workflows/test/badge.svg)](https://github.com/ctubio/Krypto-trading-bot/actions)
-[![Coverage Status](https://img.shields.io/coveralls/ctubio/Krypto-trading-bot/master.svg)](https://coveralls.io/r/ctubio/Krypto-trading-bot?branch=master)
-[![Quality Status](https://img.shields.io/badge/review-clang--tidy%20+%20pvs-4cc61e.svg)](https://www.codacy.com/gh/ctubio/Krypto-trading-bot/dashboard)
-[![Open Issues](https://img.shields.io/github/issues/ctubio/Krypto-trading-bot.svg)](https://github.com/ctubio/Krypto-trading-bot/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/ctubio/Krypto-trading-bot.svg)](https://github.com/ctubio/Krypto-trading-bot)
-[![Downloads Last 21 Commits](https://img.shields.io/github/downloads/ctubio/Krypto-trading-bot/total.svg?label=downloads%20last%20releases)](https://github.com/ctubio/Krypto-trading-bot)
-
-Runs on unix-like systems. Persistence is achieved through a built-in server-less SQLite C++ interface.<br> Installation in a dedicated [Debian](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/), [Raspberry](https://www.raspberrypi.org/software/), [Red Hat](https://developers.redhat.com/products/rhel/download), [CentOS](https://wiki.centos.org/Download) or macOS instance is recommended.
-
-![Web UI Preview](https://user-images.githubusercontent.com/1634027/44740469-d5c7ff00-aafa-11e8-9252-73b9c1283adb.png)
-
-The web UI is compatible with most web browsers/resolutions, but Firefox or Chrome at 1600px are recommended. Doesn't require configuration of any web server (unless installed behind your own reverse proxy).
-
 ### Compatible Exchanges
 
 ||with Post-Only Orders support|without Post-Only|
